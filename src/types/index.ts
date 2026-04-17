@@ -7,6 +7,10 @@ export interface Section {
   content?: string
   showButton?: boolean
   buttonText?: string
+  image?: string
+  price?: string
+  features?: string[]
+  isGazebo?: boolean
 }
 
 export interface SectionProps extends Section {
